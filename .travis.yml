@@ -30,6 +30,7 @@ matrix:
     jdk: oraclejdk8
   - os: linux-ppc64le
     jdk: openjdk8
+    before_script: sudo apt-get install maven
 
 # disabling cache for /home/travis/.m2/repository/org/apache/hive/hive-jdbc/3.0.0-SNAPSHOT/hive-jdbc-3.0.0-SNAPSHOT-standalone.jar (Permission denied)
 #cache:
