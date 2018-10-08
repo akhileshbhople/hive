@@ -16,6 +16,9 @@
 
 # https://docs.travis-ci.com/user/ci-environment/
 # trusty - 7.5GB memory and 2 cores
+os:
+  - linux
+  - linux-ppc64le
 sudo: required
 dist: trusty
 
